@@ -85,7 +85,7 @@ ul{
   from { opacity: 1.0; } to { opacity: 0.0; }
 }
 .topnav {
-  background-color: #333;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -107,6 +107,6 @@ ul{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #20ad04;
   color: white;
 }
