@@ -85,8 +85,9 @@ ul{
   from { opacity: 1.0; } to { opacity: 0.0; }
 }
 .topnav {
-  background-color: #000000;
+  background-color: #0000005e;
   overflow: hidden;
+  text-align: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -109,4 +110,10 @@ ul{
 .topnav a.active {
   background-color: #20ad04;
   color: white;
+}
+
+.ol{
+  background-color: rgb(189, 87, 87);
+  text-align: center;
+
 }
