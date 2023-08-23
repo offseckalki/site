@@ -15,9 +15,9 @@ body{
   font-family:monospace;
 }
 .box-img{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border-radius: 75%;
+  width: 250px;
+  height: 250px;
 }
 .box h1{
   font-size: 40px;
@@ -88,21 +88,23 @@ ul{
   background-color: #0000005e;
   overflow: hidden;
   text-align: center;
+  
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  margin: 15 ;
+  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ce0202;
   color: black;
 }
 
@@ -111,9 +113,9 @@ ul{
   background-color: #20ad04;
   color: white;
 }
-
-.ol{
-  background-color: rgb(189, 87, 87);
+h2{
+  color: #fc0000;
   text-align: center;
-
+  font-size: 50px;
+  font-family: monospace ;
 }
