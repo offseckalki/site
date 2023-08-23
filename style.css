@@ -7,17 +7,19 @@ body{
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.253);
-  padding: 40px;
+  padding: 1px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 1%;
   color: rgb(60,136,50,255);
   font-family:monospace;
 }
 .box-img{
-  border-radius: 75%;
+  border-radius: 55%;
   width: 250px;
   height: 250px;
+  
+
 }
 .box h1{
   font-size: 40px;
@@ -47,6 +49,9 @@ color: #ff0000;
   font-size: 15px;
   color: rgb(0, 38, 255);
 }
+.box p6{
+  text-align: center;
+}
 ul{
   margin: 0;
   padding: 0;
@@ -70,6 +75,7 @@ ul{
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1,0,0,1);
   animation-duration: 1s;
+  cursor: text ;
 
   display: inline-block;
   width: 5px;
@@ -88,34 +94,96 @@ ul{
   background-color: #0000005e;
   overflow: hidden;
   text-align: center;
+  padding-top: 50px;
   
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  margin: 15 ;
+  margin: 100 ;
   float: center;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ce0202;
-  color: black;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  border-radius: 5% ;
+  padding-top: 2px;
+
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #20ad04;
   color: white;
+  padding-top: 2px;
+  border-radius: 10%;
 }
-h2{
-  color: #fc0000;
+.box2{
+  width: 500px;
+  background: rgba(0, 0, 0, 0.253);
+  padding: 1px;
   text-align: center;
-  font-size: 50px;
-  font-family: monospace ;
+  margin: auto;
+  margin-top: 1%;
+  color: rgb(60,136,50,255);
+  font-family:monospace;
+  animation:ease-in;
+}
+.box2 p{
+  color: rgb(60,136,50,255);;
+  font-size: 15px;
+  text-align: justify;
+}
+.box2 p2{
+  text-align: justify;
+  font-size: 15px;
+  color: #ff0000;
+}
+.box2 p4{
+  text-align: justify;
+  color:rgb(0, 38, 255) ;
+}
+.box2 p6{
+  text-align: justify;
+  color: aqua;
+}
+.headingc
+{
+  color: rgb(255, 174, 0);
+  text-align: center;
+  font-size: 70px;
+  font-family: monospace;
+}
+.textc 
+{
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+
+}
+.headingc2
+{
+  color: #fc0000;
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+  font-style: initial, italic,bold;
+  text-align: justify;
+}
+.box2 a{
+  color: rgb(243, 200, 7) ;
+}
+.box2 p5{
+  color: aliceblue;
+  text-align: justify;
+
 }
